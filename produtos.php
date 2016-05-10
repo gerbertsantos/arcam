@@ -18,6 +18,8 @@ include("ajax/conn.php");
 $mySQL = new MySQL;
 $rsEstados = $mySQL->executeQuery("SELECT * FROM estados;");
 $rsEstados_totalRows = mysql_num_rows($rsEstados);
+$rsMarcas = $mySQL->executeQuery("SELECT * FROM marca;");
+$rsMarcas_totalRows = mysql_num_rows($rsMarcas);
 $mySQL->disconnect;
 
 include('produto_content.php');
@@ -89,6 +91,7 @@ include('produto_content.php');
 								</select>
 							</div>
 							<div class="col-xs-12 col-sm-6" id="load_cidades">
+								<span id="carregando_cidade">...aguarde, carregando</span>
 						      	<select class="contact-form__select" name="cidade" id="cidade">
 						          <option value="">Selecione uma cidade</option>
 						        </select>
@@ -101,32 +104,24 @@ include('produto_content.php');
 							</div>
 
 							<div class="col-xs-12 col-sm-6">
-								<select class="contact-form__select" id="marca" name="formMarca" required>
+								<select class="contact-form__select" id="marca" name="marca"  onchange="buscar_veiculos()" required>
 								  <option>Selecione a marca</option>
-								  <option>BMW</option>
-								  <option>Fiat</option>
-								  <option>Chevrolet</option>
+								  <?php
+								  		while ($row_rsMarcas = mysql_fetch_array($rsMarcas))
+										{
+										echo "<option value='".$row_rsMarcas["id_marca"]."'>".utf8_encode($row_rsMarcas["nome"])."</option>";
+										}
+								  ?>
 								</select>
 							</div>
-							<div class="col-xs-12 col-sm-6">
-								<select class="contact-form__select" id="veiculo" name="formVeiculo" required>
+							<div class="col-xs-12 col-sm-6" id="load_veiculos">
+								<span id="carregando_veiculo">...aguarde, carregando</span>
+								<select class="contact-form__select" id="veiculo" name="veiculo" required>
 								  <option>Selecione o veículo</option>
-								  <option>BMW Serie 3</option>
-								  <option>BMW X1</option>
-								  <option>BMW Serie 1</option>
-								  <option>BMW X6</option>
-								  <option>BMW Z4</option>
-								  <option>BMW X3zz</option>
 								</select>
 							</div>
 							<div class="col-xs-12 col-sm-6">
-								<select class="contact-form__select" id="ano" name="formAno" required>
-								  <option>Selecione o ano</option>
-								  <option>2016</option>
-								  <option>2015</option>
-								  <option>2014</option>
-								  <option>2013</option>
-								</select>
+								<select class="contact-form__select" name="yearpicker" id="yearpicker" required></select>
 							</div>
 							<div class="col-xs-12 col-sm-6">
 								<input name="formChassis" type="text" placeholder="Chassis" class="contact-form__input" required>
@@ -141,16 +136,44 @@ include('produto_content.php');
 			</div>
 		</div>
 	</section>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
 	<script type="text/javascript">
+	
+		function hideshow(div1, div2){
+	    	$(div1).hide();
+	    	$(div2).show();
+	    };
+	
 		function buscar_cidades(){
 	      var estado = $('#estado').val();  
 	      if(estado){
-	        var url = 'ajax/ajax.php?estado='+estado;  
+	        var url = 'ajax/ajax_cidades.php?estado='+estado; 
+	        hideshow('#cidade','#carregando_cidade');
 	        $.get(url, function(dataReturn) {
-	          $('#load_cidades').html(dataReturn);  
+	          $('#load_cidades').html(dataReturn); 
+	          hideshow('#carregando_cidade','#cidade');
 	        });
 	      }
 	    }
+	    
+	    function buscar_veiculos(){
+	      var marca = $('#marca').val();  
+	      if(marca){
+	        var url = 'ajax/ajax_veiculos.php?marca='+marca; 
+	        hideshow('#veiculo','#carregando_veiculo');
+	        $.get(url, function(dataReturn) {
+	          $('#load_veiculos').html(dataReturn);
+	          hideshow('#carregando_veiculo','#veiculo');
+	        });
+	      }
+	    }
+	    
+	    $(document).ready(function(){
+          for (i = new Date().getFullYear(); i > 1969; i--)
+          {
+              $('#yearpicker').append($('<option />').val(i).html(i));
+          }
+        });
 	</script>
 
 <?php include('footer.php'); ?>

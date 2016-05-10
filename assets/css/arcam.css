@@ -2,7 +2,5 @@
 .bg-arcam{background-image: url('../img/bg.png'); background-repeat: no-repeat; }
 .bg-arcam-invert{background-image: url('../img/bg_invert.png'); background-repeat: no-repeat; }
 
-.carregando{
-				color:#666;
-				display:none;
-			}
+#carregando_veiculo{ color:#666; display:none; font-size: 12px;	}
+#carregando_cidade{color:#666; display:none;font-size: 12px;}

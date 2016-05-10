@@ -14,7 +14,7 @@ for ($i = 0; $i < $num; $i++) {
   $arrCidades[$dados['cod_cidades']] = utf8_encode($dados['nome']);
 }
 ?>
-
+<span id="carregando_cidade">...aguarde, carregando</span>
 <select class="contact-form__select" name="cidade" id="cidade">
   <?php foreach($arrCidades as $value => $nome){
     echo "<option value='{$value}'>{$nome}</option>";
