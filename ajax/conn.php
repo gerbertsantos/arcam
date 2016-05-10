@@ -2,10 +2,15 @@
 		
 class MySQL {
 
-	var $host="localhost";
-	var $user="root";
-	var $password="123456";
-	var $database="arcam";
+	// var $host="localhost";
+	// var $user="root";
+	// var $password="123456";
+	// var $database="arcam";
+	
+	var $database = "c9";
+	var $user = "gerbert";
+	var $password = "";
+	var $host = "0.0.0.0";
 
 	var $query;
 	var $link;

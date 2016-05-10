@@ -16,10 +16,9 @@ include('banner.php');
 include("ajax/conn.php");
 
 $mySQL = new MySQL;
-$rsEstados = $mySQL->executeQuery("SELECT * FROM estado;");
+$rsEstados = $mySQL->executeQuery("SELECT * FROM estados;");
 $rsEstados_totalRows = mysql_num_rows($rsEstados);
 $mySQL->disconnect;
-
 
 include('produto_content.php');
 ?>
@@ -84,20 +83,15 @@ include('produto_content.php');
 								  <?php
 								  		while ($row_rsEstados = mysql_fetch_array($rsEstados))
 										{
-										echo "<option value='".$row_rsEstados["id_estado"]."'>".$row_rsEstados["nome"]."</option>";
+										echo "<option value='".$row_rsEstados["cod_estados"]."'>".utf8_encode($row_rsEstados["nome"])."</option>";
 										}
 								  ?>
 								</select>
 							</div>
-							<div class="col-xs-12 col-sm-6" id="cidades">
+							<div class="col-xs-12 col-sm-6" id="load_cidades">
 						      	<select class="contact-form__select" name="cidade" id="cidade">
-						      		<option value="">Selecione uma cidade</option>
-								  	<?php 
-								  		foreach($arrCidades as $value => $nome){
-								    		echo "<option value='{$value}'>{$nome}</option>";
-								  		}
-									?>
-								</select>
+						          <option value="">Selecione uma cidade</option>
+						        </select>
 							</div>
 							<div class="col-xs-12 col-sm-6">
 								<input name="formCnpj" type="text" placeholder="CNPJ/CPF" class="contact-form__input" required>
@@ -147,20 +141,13 @@ include('produto_content.php');
 			</div>
 		</div>
 	</section>
-	<!-- end Contact us section -->
-	<!-- <script src="https://ajax.googleapis.com/ajax/libs/prototype/1.7.3.0/prototype.js"></script> -->
-	<!-- <script src="http://www.google.com/jsapi"></script> -->
-	<script type="text/javascript">
-	  google.load('jquery', '1.3');
-	  google.load('prototype', '1.7.3.0');
-	</script>
 	<script type="text/javascript">
 		function buscar_cidades(){
 	      var estado = $('#estado').val();  
 	      if(estado){
 	        var url = 'ajax/ajax.php?estado='+estado;  
 	        $.get(url, function(dataReturn) {
-	          $('#cidades').html(dataReturn);  
+	          $('#load_cidades').html(dataReturn);  
 	        });
 	      }
 	    }
