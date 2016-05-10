@@ -1,0 +1,8 @@
+#logoArcamMenu{ margin-top: 25px }
+.bg-arcam{background-image: url('../img/bg.png'); background-repeat: no-repeat; }
+.bg-arcam-invert{background-image: url('../img/bg_invert.png'); background-repeat: no-repeat; }
+
+.carregando{
+				color:#666;
+				display:none;
+			}
