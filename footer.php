@@ -5,8 +5,7 @@
 					<div class="row">
 						<div class="col-xs-12 col-sm-4 pb-50">
 							<div class="footer__title">Arcam</div>
-							<div class="footer__about">Eos eum beatae possimus facere, unde ea nobis qui architecto harum officia commodi et voluptate pariatur tenetur minima consequatur voluptatibus modi explicabo, omnis dignissimos iure eius, nisi molestiae! Commodi nisi neque, rerum, iusto dignissimos
-								omnis! Quia, expedita illum!</div>
+							<div class="footer__about">A ARCAM DO BRASIL mantém equipe comercial e uma grande estrutura de distribuição prontas para atender, de forma rápida e eficiente, seus clientes por todo o país.</div>
 						</div>
 						<div class="col-xs-12 col-sm-4 pb-50">
 							<div class="footer__title">Contato</div>
@@ -31,8 +30,21 @@
 							</div>
 						</div>
 						<div class="col-xs-12 col-sm-4 pb-50">
-							<div class="footer__title">Recent Tweets</div>
-							<ul class="footer-twitter-feed-vertical__list" id="footer-twitter-feed-vertical__list" data-twitter-id="651768229925404672"></ul>
+							<div class="footer__title">Depoimentos</div>
+							<!--<ul class="footer-twitter-feed-vertical__list" id="footer-twitter-feed-vertical__list" data-twitter-id="651768229925404672"></ul>-->
+							<ul class="footer-twitter-feed-vertical__list">
+								<li class="footer-twitter-feed-vertical__item ico-117">
+									<p class="tweet">Importação segura e de qualidade! <span style="font-style:italic">"Wagner Rodrigues" - cliente </i></p>
+								</li>
+								
+								<li class="footer-twitter-feed-vertical__item ico-117">
+									<p class="tweet">Processos claros e bem definidos! <span style="font-style:italic">"Chef Gutz Restaurante" - cliente </i></p>
+								</li>
+								
+								<li class="footer-twitter-feed-vertical__item ico-117">
+									<p class="tweet">Impressionantemente rápido! <span style="font-style:italic">"Gerbert Santos" - cliente </i></p>
+								</li>
+							</ul>
 						</div>
 					</div>
 				</div>

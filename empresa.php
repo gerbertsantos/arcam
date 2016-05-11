@@ -9,7 +9,7 @@
 	$urlBtn1 = "";
 	$tituloBtn2 = "Faça já seu pedido!";
 	$urlBtn2 = "";
-	$img;
+	$imagem = "empresa.jpg";
 
 	include('header.php');	
 	include('banner.php');	

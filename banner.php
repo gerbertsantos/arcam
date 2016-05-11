@@ -5,7 +5,7 @@ echo "
 	<section class='s-main' id='banner'>
 		<div class='main-1'>
 			<div class='main-1-item'>
-				<div class='main-1-item__bg parallax' data-background-image='assets/img/225.jpg' data-parallax-min-fading='50' data-parallax-speed='0.9'></div>
+				<div class='main-1-item__bg parallax' data-background-image='assets/img/banner/".$imagem."' data-parallax-min-fading='50' data-parallax-speed='0.9'></div>
 				<div class='container'>
 					<div class='main-1-item__inner'>
 						<h2 class='main-1-item__title'><span class='main-1-item__title_part_1 fx' data-animation-name='fadeInDownBig' data-animation-duration='1s'>". $texto1 ."</span> <span class='theme-color main-1-item__title_part_2 fx' data-animation-name='fadeInLeftBig' data-animation-duration='1s'>". $texto2 ."</span> <span class='main-1-item__title_thin theme-color main-1-item__title_part_3 fx' data-animation-name='fadeInRightBig' data-animation-duration='1s'>". $texto3 ."</span></h2>
@@ -25,9 +25,9 @@ echo "
 <!-- start main 7 (self-hosted video) section -->
 	<section class='s-main' id='banner'>
 		<div class='main-5-slider'>
-			<div class='main-5-slider__item parallax' data-background-image='assets/img/255.jpg' data-parallax-min-fading='50' data-parallax-speed='0.9'></div>
-			<div class='main-5-slider__item parallax' data-background-image='assets/img/265.jpg' data-parallax-min-fading='50' data-parallax-speed='0.9'></div>
-			<div class='main-5-slider__item parallax' data-background-image='assets/img/264.jpg' data-parallax-min-fading='50' data-parallax-speed='0.9'></div>
+			<div class='main-5-slider__item parallax' data-background-image='assets/img/banner/home1.jpg' data-parallax-min-fading='50' data-parallax-speed='0.9'></div>
+			<div class='main-5-slider__item parallax' data-background-image='assets/img/banner/home2.jpg' data-parallax-min-fading='50' data-parallax-speed='0.9'></div>
+			<div class='main-5-slider__item parallax' data-background-image='assets/img/banner/home3.jpg' data-parallax-min-fading='50' data-parallax-speed='0.9'></div>
 		</div>
 		<div class='container'>
 			<div class='main-5-slider-content'>
