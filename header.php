@@ -42,8 +42,8 @@
 		    		$url="equipe";
 		    		
 		    		break;
-		    	case 'produtos.php':
-		    		$url="produtos";
+		    	case 'auto.php':
+		    		$url="auto";
 		    		
 		    		break;	
 		    	case 'contato.php':

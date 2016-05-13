@@ -10,7 +10,7 @@
 	$urlBtn1 = "";
 	$tituloBtn2 = "Faça já seu pedido!";
 	$urlBtn2 = "";
-	$img;
+	$imagem = "contato.jpg";
 
 	include('header.php'); 
 	include('banner.php');
@@ -20,24 +20,34 @@
 				<section class="section-2 section-white s-contact">
 					<div class="container">
 						<div class="row">
-							<div class="col-xs-12 col-sm-12"><span class="section__subtitle">Feel</span>
-								<h3 class="section__title">Free to Contact</h3></div>
+							<div class="col-xs-12 col-sm-12"><span class="section__subtitle">Você por aqui?</span>
+								<h3 class="section__title">Faça contato</h3></div>
 						</div>
 						<div class="row contact">
 							<div class="col-xs-12 col-sm-4">
 								<div class="contact-info">
-									<div class="contact-info__title">Information</div>
+									<div class="contact-info__title">Endereços</div>
 									<div class="contact-info__item ico-60">
-										NowaDays Ltd.
-										<br>442 5th Avenue,
-										<br>Manhattan, NY,
-										<br>10018
+										Arcam Brasil
+										<br>Rodovia Ernani do Amaral Peixoto,
+										<br>Nº 28354, Sala 16,
+										<br>Maricá, RJ, Brasil
+										<br>24.912-710
 									</div>
 									<div class="contact-info__item ico-87">
-										<a class="contact-info__link" href="tel:+1234567890">+1-234-567-890</a>
+										<a class="contact-info__link" href="tel:+55 21-3731-0762">+55 21-3731-0762</a>
 									</div>
 									<div class="contact-info__item ico-61">
-										<a class="contact-info__link" href="mailto:yourmail@yahoo.com">yourmail@yahoo.com</a></div>
+										<a class="contact-info__link" href="mailto:contato@arcambrasil.com">contato@arcambrasil.com</a>
+									</div>
+									
+									<div class="contact-info__item ico-60">
+										Arcam Brasil - Canadá
+										<br>Ottawa - Canadá
+									</div>
+									<div class="contact-info__item ico-61">
+										<a class="contact-info__link" href="mailto:sales@arcambrasil.com">sales@arcambrasil.com</a>
+									</div>
 								</div>
 							</div>
 							<div class="col-xs-12 col-sm-8">
@@ -50,10 +60,10 @@
 											<input name="formTelefone" type="text" placeholder="Telefone" class="contact-form__input" required>
 										</div>
 										<div class="col-xs-12 col-sm-6">
-											<input name="formEmail" type="email" placeholder="Email address" class="contact-form__input" required>
+											<input name="formEmail" type="email" placeholder="E-mail" class="contact-form__input" required>
 										</div>
 										<div class="col-xs-12 col-sm-12 align-left">
-											<textarea name="formMessage" placeholder="Message" cols="30" rows="10" class="contact-form__textarea" required></textarea>
+											<textarea name="formMessage" placeholder="Menssagem" cols="30" rows="10" class="contact-form__textarea" required></textarea>
 											<button class="contact-form__submit btn-a btn-a_fill_theme" type="submit" value="Send">Send</button>
 										</div>
 									</form>

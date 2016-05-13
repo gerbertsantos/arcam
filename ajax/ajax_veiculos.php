@@ -18,5 +18,4 @@ for ($i = 0; $i < $num; $i++) {
   <?php foreach($arrVeiculos as $value => $nome){
     echo "<option value='{$value}'>{$nome}</option>";
   }
-
 ?>

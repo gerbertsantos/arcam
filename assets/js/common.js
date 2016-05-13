@@ -3337,8 +3337,8 @@
 		var coords = googleMapContainer.getAttribute('data-google-maps-coords').split(',');
 
 		loadjs('https://maps.googleapis.com/maps/api/js', function () {
-			loadjs('https://google-maps-utility-library-v3.googlecode.com/svn/trunk/richmarker/src/richmarker.js', function () {
-
+			//loadjs('https://google-maps-utility-library-v3.googlecode.com/svn/trunk/richmarker/src/richmarker.js', function () {
+			loadjs('assets/js/richmarker.js', function () {
 				function mapInit() {
 					var coordinates = new google.maps.LatLng(coords[0], coords[1]),
 						styles = [{

@@ -17,7 +17,7 @@
 				<li class="menu__item"><a href="atuacao.php" class="menu__link <?php echo ( $url == 'atuacao' ? $active : null );?>">Atuação</a></li>
 				<li class="menu__item"><a href="fornecimento.php" class="menu__link <?php echo ( $url == 'fornecimento' ? $active : null );?>">Fornecimento</a></li>
 				<li class="menu__item"><a href="equipe.php" class="menu__link <?php echo ( $url == 'equipe' ? $active : null );?>">Equipe</a></li>
-				<li class="menu__item"><a href="produtos.php" class="menu__link <?php echo ( $url == 'produtos' ? $active : null );?>">Produtos</a></li>
+				<li class="menu__item"><a href="auto.php" class="menu__link <?php echo ( $url == 'auto' ? $active : null );?>">Auto peças</a></li>
 				<li class="menu__item"><a href="contato.php" class="menu__link <?php echo ( $url == 'contato' ? $active : null );?>">Contato</a></li>
 			</ul>
 

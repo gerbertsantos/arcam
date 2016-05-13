@@ -10,7 +10,7 @@
 	$urlBtn1 = "";
 	$tituloBtn2 = "Fale conosco!";
 	$urlBtn2 = "";
-	$img;
+	$imagem = "atuacao.jpg";
 
 	include('header.php');	
 	include('banner.php'); 
@@ -21,49 +21,72 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12 col-sm-12">
-					<span class="section__subtitle">What</span>
-					<h3 class="section__title">We do best</h3>
+					<span class="section__subtitle">Conheça nossa</span>
+					<h3 class="section__title">Área de atuação</h3>
 				</div>
 			</div>
 			<div class="row skills">
 				<div class="col-xs-12 col-sm-12 col-md-6">
-					<h4 class="skills__subtitle">Our Skills</h4>
-					<p class="skills__text">Inventore hic veritatis rerum velit perferendis quos voluptatem nulla odio necessitatibus cumque blanditiis labore atque tempore voluptatum amet consectetur, adipisci, mollitia ex eos numquam sed error accusantium, voluptatibus. Maiores rerum voluptates,
-						deleniti asperiores veritatis. Et molestias, labore ipsa. Distinctio animi autem similique consequuntur excepturi unde a, pariatur cum iure mollitia saepe illum dignissimos ab laborum id odio possimus accusantium, earum nisi officia deserunt nostrum
-						iusto. Impedit voluptate veniam numquam suscipit minus nihil reprehenderit expedita eum quam quas. Fugiat perspiciatis nulla eum velit consequatur harum consequuntur aliquid sequi nobis ea, voluptas nihil optio ullam, corporis omnis beatae ipsa
-						amet!</p>
+					<p class="skills__text">
+						A ARCAM DO BRASIL comercializa produtos de alta qualidade e tecnologia, de diversas áreas, nacionais e estrangeiros.<br><br>
+
+						É possível destacar os seguintes principais segmentos de atuação da empresa:<br>
+						• Indústrias Naval e de Óleo e Gás;<br>
+						• Plantas de Geração de Energia Elétrica;<br>
+						• Indústria de Mineração e de Siderurgia;<br>
+						• Telecomunicações;<br>
+						• Indústria Médico-Hospitalar;<br>
+						• Indústria Automotiva;<br><br>
+						
+						Se o cliente necessita de material de algum segmento da economia não listado acima, ainda assim a ARCAM DO BRASIL poderá atendê-lo. <br>
+						
+						Nossa equipe no Brasil e nossa rede de colaboradores internacionais estarão sempre à disposição para localizar qualquer material, eventualmente 
+						requisitado, e entregá-lo onde quer que o cliente determine. <br><br>
+						
+						Esta é a ARCAM, uma empresa que trabalha para trazer o mundo até você.
+						
+						
+					</p>
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-6">
 					<div class="row">
-						<div class="skills__title col-xs-4 col-sm-2">HTML</div>
-						<div class="skills-graph-linear col-xs-8 col-sm-10">
+						<div class="skills__title col-xs-4 col-sm-3">Indústria</div>
+						<div class="skills-graph-linear col-xs-8 col-sm-9">
 							<div class="skills-graph-linear__bg">
 								<div class="skills-graph-linear__bar fx">
 									<span class="skills-graph-linear__count" data-skills-graph-perc="95">0</span>
 								</div>
 							</div>
 						</div>
-						<div class="skills__title col-xs-4 col-sm-2">CSS</div>
-						<div class="skills-graph-linear col-xs-8 col-sm-10">
+						<div class="skills__title col-xs-4 col-sm-3">Hospitais</div>
+						<div class="skills-graph-linear col-xs-8 col-sm-9">
 							<div class="skills-graph-linear__bg">
 								<div class="skills-graph-linear__bar fx">
 									<span class="skills-graph-linear__count" data-skills-graph-perc="91">0</span>
 								</div>
 							</div>
 						</div>
-						<div class="skills__title col-xs-4 col-sm-2">JavaScript</div>
-						<div class="skills-graph-linear col-xs-8 col-sm-10">
+						<div class="skills__title col-xs-4 col-sm-3">Construção</div>
+						<div class="skills-graph-linear col-xs-8 col-sm-9">
 							<div class="skills-graph-linear__bg">
 								<div class="skills-graph-linear__bar fx">
-									<span class="skills-graph-linear__count" data-skills-graph-perc="70">0</span>
+									<span class="skills-graph-linear__count" data-skills-graph-perc="80">0</span>
 								</div>
 							</div>
 						</div>
-						<div class="skills__title col-xs-4 col-sm-2">PHP</div>
-						<div class="skills-graph-linear col-xs-8 col-sm-10">
+						<div class="skills__title col-xs-4 col-sm-3">TeleComunicações</div>
+						<div class="skills-graph-linear col-xs-8 col-sm-9">
 							<div class="skills-graph-linear__bg">
 								<div class="skills-graph-linear__bar fx">
-									<span class="skills-graph-linear__count" data-skills-graph-perc="66">0</span>
+									<span class="skills-graph-linear__count" data-skills-graph-perc="76">0</span>
+								</div>
+							</div>
+						</div>
+						<div class="skills__title col-xs-4 col-sm-3">Auto Peças</div>
+						<div class="skills-graph-linear col-xs-8 col-sm-9">
+							<div class="skills-graph-linear__bg">
+								<div class="skills-graph-linear__bar fx">
+									<span class="skills-graph-linear__count" data-skills-graph-perc="88">0</span>
 								</div>
 							</div>
 						</div>

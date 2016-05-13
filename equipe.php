@@ -9,7 +9,7 @@
 	$urlBtn1 = "";
 	$tituloBtn2 = "Faça já seu pedido!";
 	$urlBtn2 = "";
-	$img;
+	$imagem = "equipe.jpg";
 
 	include('header.php');
 	include('banner.php');
@@ -21,8 +21,8 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-xs-12 col-sm-12">
-							<span class="section__subtitle">Meet</span>
-							<h3 class="section__title">Our Team</h3>
+							<span class="section__subtitle">Conheça</span>
+							<h3 class="section__title">Nossa Equipe</h3>
 						</div>
 					</div>
 					<div class="row team">

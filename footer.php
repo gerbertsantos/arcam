@@ -77,7 +77,7 @@
 		</div>
 		<div class="overlay"></div>
 	<!-- end modal window -->
-	
+
 	<script>	
 			
 			function setBgImageFromData() {
@@ -109,7 +109,7 @@
 				}
 			}
 			loadjs('assets/js/jquery.min.js', function() {
-				loadjs('assets/js/libs.min.js', function() {					 
+				loadjs('assets/js/libs.min.js', function() {
 					loadjs('assets/js/common.js');
 				});
 			});
