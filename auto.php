@@ -5,11 +5,12 @@ $texto2 = "Nossos";
 $texto3 = "produtos";
 $descricao1 = "Com muita dedicação chegamos até aqui,";
 $descricao2 = "faça parte da nossa história.";
-$tituloBtn1 = "Saiba mais!";
-$urlBtn1 = "";
-$tituloBtn2 = "Dúvidas?";
-$urlBtn2 = "";
+$tituloBtn1 = "CONHEÇA NOSSA EQUIPE";
+$urlBtn1 = "equipe.php";
+$tituloBtn2 = "FAÇA JÁ SEU PEDIDO!";
+$urlBtn2 = "#pedido";
 $imagem = "auto.jpg";
+$scroll = "scroll-to";
 
 include('header.php');	
 include('banner.php');
@@ -24,6 +25,23 @@ $mySQL->disconnect;
 
 include('produto_content.php');
 ?>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.js"></script>
+<script>
+    angular.module('app', []);
+    angular.module('app').controller('MyCtrl', function MyCtrl($http, $scope){
+
+        $http.get('https://fipe-parallelum.rhcloud.com/api/v1/carros/marcas').success(function(data) {
+            $scope.greeting = data;
+        });
+
+        $scope.carregarModelo = function (marca) {
+            $http.get("https://fipe-parallelum.rhcloud.com/api/v1/carros/marcas/"+marca.codigo+"/modelos").success(function (data) {
+               $scope.modelo = data;
+            });
+        };
+
+    });
+</script>
 
 	<!-- start get it 2 section -->
 	<div class="s-get-it-2">
@@ -33,20 +51,20 @@ include('produto_content.php');
 					<div class="s-get-it-2__title">Não perca mais tempo</div>
 					<div class="s-get-it-2__title">Faça seu pedido, entregamos em todo Brasil!</div>
 				</div>
-				<!-- <div class="col-xs-12 col-sm-12 col-md-4 align-middle">
-					<a class="btn-a btn-a_size_large btn-a_weight_bold" href="http://likeaprothemes.com">Get theme now!</a>
-				</div> -->
+				
 			</div>
 		</div>
 	</div>
 	<!-- end get it 2 section -->
 
 	<!-- Incio formulario de pedido-->
-	<section class="section-2 section-white s-contact">
+	<section class="section-2 section-white s-contact" id="pedido">
 		<div class="container">
 			<div class="row">
-				<div class="col-xs-12 col-sm-12"><span class="section__subtitle">Produtos</span>
-					<h3 class="section__title">Faça seu pedido</h3></div>
+				<div class="col-xs-12 col-sm-12">
+					<span class="section__subtitle">Produtos</span>
+					<h3 class="section__title">Faça seu pedido</h3>
+				</div>
 			</div>
 			<div class="row contact">
 				<div class="col-xs-12 col-sm-4">
@@ -105,21 +123,15 @@ include('produto_content.php');
 							</div>
 
 							<div class="col-xs-12 col-sm-6">
-								<select class="contact-form__select" id="marca" name="marca"  onchange="buscar_veiculos()" required>
-								  <option>Selecione a marca</option>
-								  <?php
-								  		while ($row_rsMarcas = mysql_fetch_array($rsMarcas))
-										{
-										echo "<option value='".$row_rsMarcas["id_marca"]."'>".utf8_encode($row_rsMarcas["nome"])."</option>";
-										}
-								  ?>
-								</select>
+								<select id="marca" class="customSel contact-form__select" ng-options="x as x.nome for x in greeting" ng-model="marca" ng-change="carregarModelo(marca)">
+						            <option value="" selected>Selecione a marca</option>
+						        </select>
 							</div>
-							<div class="col-xs-12 col-sm-6" id="load_veiculos">
-								<span id="carregando_veiculo">...aguarde, carregando</span>
-								<select class="contact-form__select" id="veiculo" name="veiculo" required>
-								  <option>Selecione o veículo</option>
-								</select>
+							<div class="col-xs-12 col-sm-6" id="modelos">
+								<select id="modelo" class="customSel contact-form__select">
+						            <option value="0" selected>Selecione o modelo</option>
+						            <option ng-repeat="x in modelo.modelos" value="{{ x.nome }}">{{ x.nome }}</option>
+						        </select>
 							</div>
 							<div class="col-xs-12 col-sm-6">
 								<select class="contact-form__select" name="yearpicker" id="yearpicker" required></select>

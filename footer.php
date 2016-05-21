@@ -5,7 +5,7 @@
 					<div class="row">
 						<div class="col-xs-12 col-sm-4 pb-50">
 							<div class="footer__title">Arcam</div>
-							<div class="footer__about">A ARCAM DO BRASIL mantém equipe comercial e uma grande estrutura de distribuição prontas para atender, de forma rápida e eficiente, seus clientes por todo o país.</div>
+							<div class="footer__about">A ARCAM DO BRASIL mantém equipe comercial e estrutura de distribuição prontas para atender, de forma rápida e eficiente, clientes por todo o país.</div>
 						</div>
 						<div class="col-xs-12 col-sm-4 pb-50">
 							<div class="footer__title">Contato</div>
@@ -14,20 +14,13 @@
 								<li class="footer-contacts__item">Rodovia Ernani do Amaral Peixoto, 28354, Sala 16</li>
 								<li class="footer-contacts__item">24.912-710, Maricá, RJ, Brasil</li>
 								<li class="footer-contacts__item">Telefone: <a class="footer-contacts__link" href="tel:+1234567890">+55 21-3731-0762</a></li>
-								<li class="footer-contacts__item">Email: <a class="footer-contacts__link" href="mailto:yourmail@domain.com">contato@arcambrasil.com</a></li>
+								<li class="footer-contacts__item">Email: <a class="footer-contacts__link" href="mailto:contato@arcambrasil.com">contato@arcambrasil.com</a></li>
 								<li></li>
 								<li><h5>Canadá</h5></li>
 								<li class="footer-contacts__item">Ottawa - Canadá</li>
-								<li class="footer-contacts__item">Email: <a class="footer-contacts__link" href="mailto:yourmail@domain.com">sales@arcambrasil.com</a></li>
+								<li class="footer-contacts__item">Email: <a class="footer-contacts__link" href="mailto:sales@arcamcanada.com">sales@arcambrasil.com</a></li>
 							</ul>
-							<div class="footer-social">
-								<a href="#"><i class="ico-7 footer-social__item"></i></a>
-								<a href="#"><i class="ico-6 footer-social__item"></i></a>
-								<a href="#"><i class="ico-5 footer-social__item"></i></a>
-								<a href="#"><i class="ico-3 footer-social__item"></i></a>
-								<a href="#"><i class="ico-2 footer-social__item"></i></a>
-								<a href="#"><i class="ico-1 footer-social__item"></i></a>
-							</div>
+							
 						</div>
 						<div class="col-xs-12 col-sm-4 pb-50">
 							<div class="footer__title">Depoimentos</div>
@@ -59,8 +52,7 @@
 						</ul>
 						<ul class="footer-menu col-xs-12 col-sm-5 col-md-4">
 							<li class="footer-menu__item"><a class="footer-menu__link" href="index.php">Home</a></li>
-							<li class="footer-menu__item"><a class="footer-menu__link" href="blog-sidebar-right.html">Blog</a></li>
-							<li class="footer-menu__item"><a class="footer-menu__link" href="contatp.php">Contact</a></li>
+							<li class="footer-menu__item"><a class="footer-menu__link" href="contato.php">Contato</a></li>
 						</ul>
 					</div>
 				</div>

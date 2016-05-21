@@ -11,8 +11,8 @@ echo "
 						<h2 class='main-1-item__title'><span class='main-1-item__title_part_1 fx' data-animation-name='fadeInDownBig' data-animation-duration='1s'>". $texto1 ."</span> <span class='theme-color main-1-item__title_part_2 fx' data-animation-name='fadeInLeftBig' data-animation-duration='1s'>". $texto2 ."</span> <span class='main-1-item__title_thin theme-color main-1-item__title_part_3 fx' data-animation-name='fadeInRightBig' data-animation-duration='1s'>". $texto3 ."</span></h2>
 						<p class='main-1-item__subtitle fx' data-animation-name='fadeInUpBig' data-animation-duration='1s' data-animation-delay='0.2s'>". $descricao1 ."</p>
 						<p class='main-1-item__subtitle fx' data-animation-name='fadeInUp' data-animation-duration='1s' data-animation-delay='1s'>". $descricao2 ."</p>
-						<a href='' class='btn-a btn-a_color_theme btn-a_hover_2 btn-a_size_large fx' data-animation-name='fadeIn' data-animation-duration='1s' data-animation-delay='1.5s'>". $tituloBtn1 ."</a>
-						<a href='' class='btn-a btn-a_size_large scroll-to fx' data-animation-name='fadeIn' data-animation-duration='1s' data-animation-delay='1.5s'>". $tituloBtn2 ."</a>
+						<a href='".$urlBtn1."' class='btn-a btn-a_color_theme btn-a_hover_2 btn-a_size_large fx' data-animation-name='fadeIn' data-animation-duration='1s' data-animation-delay='1.5s'>". $tituloBtn1 ."</a>
+						<a href='".$urlBtn2."' class='btn-a btn-a_size_large $scroll fx' data-animation-name='fadeIn' data-animation-duration='1s' data-animation-delay='1.5s'>". $tituloBtn2 ."</a>
 					</div>
 				</div>
 			</div>
@@ -26,8 +26,8 @@ echo "
 	<section class='s-main' id='banner'>
 		<div class='main-5-slider'>
 			<div class='main-5-slider__item parallax' data-background-image='assets/img/banner/home1.jpg' data-parallax-min-fading='50' data-parallax-speed='0.9'></div>
-			<div class='main-5-slider__item parallax' data-background-image='assets/img/banner/home2.jpg' data-parallax-min-fading='50' data-parallax-speed='0.9'></div>
 			<div class='main-5-slider__item parallax' data-background-image='assets/img/banner/home3.jpg' data-parallax-min-fading='50' data-parallax-speed='0.9'></div>
+			<div class='main-5-slider__item parallax' data-background-image='assets/img/banner/home2.jpg' data-parallax-min-fading='50' data-parallax-speed='0.9'></div>
 		</div>
 		<div class='container'>
 			<div class='main-5-slider-content'>
@@ -45,7 +45,10 @@ echo "
 					<div class='main-5-slider-text__subtitle hidden'>Máquinas e Equipamentos</div>
 				</div>
 				<div class='main-5-slider-text'>
-					<div class='main-5-slider-text__subtitle hidden'>Bem vindo!</div>
+					<div class='main-5-slider-text__subtitle hidden'>
+						Peças automotivas para uma gama de marcas e seus mais variados modelos.<br>
+						Venha e faça parte da Arcam Brasil!
+					</div>
 				</div>
 			</div>
 		</div>

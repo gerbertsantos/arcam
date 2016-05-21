@@ -1,4 +1,4 @@
-#logoArcamMenu{ margin-top: 25px }
+#logoArcamMenu{ margin-top: 15px; width: 60% }
 .bg-arcam{background-image: url('../img/bg.png'); background-repeat: no-repeat; }
 .bg-arcam-invert{background-image: url('../img/bg_invert.png'); background-repeat: no-repeat; }
 

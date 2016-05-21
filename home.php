@@ -15,8 +15,6 @@
 					<p class="about-item__text">A ARCAM DO BRASIL faz parte do “The Arcam Group”, companhia de capital canadense com expertise no fornecimento de materiais para os mais diversos segmentos da indústria e do comércio.
 					Cumprimos com o nosso propósito através da interação entre fornecedores e operadores logísticos nacionais e internacionais, de modo a sempre racionalizar e otimizar prazos e preços para seus clientes.
 					<br/> Nosso objetivo é garantir aos nossos clientes produtos de qualidade, com preço acessível e prazos aceitáveis.</p>
-					
-					<a class="btn-a btn-a_color_theme btn-a_hover_2" href="about.html">Leia Mais</a>
 				</div>
 				<div class="about-item col-sm-6">
 					<p class="about-item__text">Atuamos na área da indústria naval e petrolifera oferecendo peças e equipamentos de alta qualidade. Representamos grandes marcas de equipamentos e produtos de reposição para a área da saúde. 

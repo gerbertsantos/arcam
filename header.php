@@ -59,7 +59,7 @@
 	?>
 
 		<!DOCTYPE html>
-		<html lang="en">
+		<html lang="en" ng-app="app" >
 
 		<head>
 			<meta charset="UTF-8"></meta>
@@ -90,16 +90,9 @@
 			<!-- <link rel="stylesheet" href="assets/css/theme-colors/theme-8b63b1.css"> -->
 		</head>
 
-		<body class="p-onepage menu-mobile-right">
-			<!-- preloader -->
-			<div class="preloader"></div>
-			<!-- page preloader -->
-			<div class="p-preloader">
-				<div class="p-preloader__top"></div>
-				<div class="p-preloader__bottom"></div>
-				<div class="p-preloader__progressbar"></div>
-				<div class="p-preloader__percentage">0</div>
-			</div>
+		<body class="p-onepage menu-mobile-right" ng-controller="MyCtrl">
+			
+			<?php include("preloader.php");?>
 			<!-- global wrapper -->
 			<div class="wrapper">
 				<!-- start header(menu) onepage section -->

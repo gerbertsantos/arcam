@@ -2,7 +2,7 @@
 	<div class="row">
 		<div class="header-logo col-xs-9 col-sm-3">
 			<a class="header-logo__link" href="/">
-				<span class="theme-color"><img src="assets/img/logo_invert.png" id="logoArcamMenu"></img></span>
+				<span class="theme-color"><img src="assets/img/logo.png" id="logoArcamMenu"></img></span>
 			</a>
 		</div>
 		<nav class="menu-nav col-xs-3 col-sm-9">
@@ -16,8 +16,8 @@
 				<li class="menu__item"><a href="servicos.php" class="menu__link <?php echo ( $url == 'servicos' ? $active : null );?>">Serviços</a></li>
 				<li class="menu__item"><a href="atuacao.php" class="menu__link <?php echo ( $url == 'atuacao' ? $active : null );?>">Atuação</a></li>
 				<li class="menu__item"><a href="fornecimento.php" class="menu__link <?php echo ( $url == 'fornecimento' ? $active : null );?>">Fornecimento</a></li>
-				<li class="menu__item"><a href="equipe.php" class="menu__link <?php echo ( $url == 'equipe' ? $active : null );?>">Equipe</a></li>
 				<li class="menu__item"><a href="auto.php" class="menu__link <?php echo ( $url == 'auto' ? $active : null );?>">Auto peças</a></li>
+				<li class="menu__item"><a href="equipe.php" class="menu__link <?php echo ( $url == 'equipe' ? $active : null );?>">Equipe</a></li>
 				<li class="menu__item"><a href="contato.php" class="menu__link <?php echo ( $url == 'contato' ? $active : null );?>">Contato</a></li>
 			</ul>
 

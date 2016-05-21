@@ -6,10 +6,10 @@
 	$texto3 = "eficiência";
 	$descricao1 = "Com muita dedicação chegamos até aqui,";
 	$descricao2 = "faça parte da nossa história.";
-	$tituloBtn1 = "Conheça nossos produtos";
-	$urlBtn1 = "";
-	$tituloBtn2 = "Faça já seu pedido!";
-	$urlBtn2 = "";
+	$tituloBtn1 = "CONHEÇA NOSSO SETOR AUTOMOTIVO";
+	$urlBtn1 = "auto.php";
+	$tituloBtn2 = "Faça contato!";
+	$urlBtn2 = "contato.php";
 	$imagem= "fornecimento.jpg";
 
 	include('header.php');	
@@ -38,8 +38,7 @@
 				<div class="offer-2-item fx" data-animation-name="fadeInRight" data-animation-duration="1s" data-animation-delay="0.2s">
 					<div class="offer-2-item__inner">
 						<h5 class="offer-2__title">Qualidade e segurança</h5>
-						<p class="offer-2__description">A ARCAM DO BRASIL mantém equipe comercial e estrutura de distribuição prontas para atender, com rapidez e eficiência, clientes por todo o Brasil.</p>
-						<a href="atuacao.php" class="btn-a btn-a_size_small scroll-to">Leia mais</a>
+						<p class="offer-2__description">São ferramentas, sempre aliadas ao bom desempenho da ARCAM DO BRASIL, a tecnologia da informação, a segurança e a transparência dos negócios..</p>
 					</div>
 				</div>
 			</div>
