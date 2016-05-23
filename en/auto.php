@@ -86,20 +86,20 @@ include('produto_content.php');
 					<div class="row">
 						<form action="ajax/pedido.php" class="contact-form">
 							<div class="col-xs-12 col-sm-12">
-								<input name="formNome" type="text" placeholder="Nome" class="contact-form__input" required>
+								<input name="formNome" type="text" placeholder="Name" class="contact-form__input" required>
 							</div>
 							<div class="col-xs-12 col-sm-6">
-								<input name="formTelefone" type="text" placeholder="Telefone" class="contact-form__input" required>
+								<input name="formTelefone" type="text" placeholder="Phone" class="contact-form__input" required>
 							</div>
 							<div class="col-xs-12 col-sm-6">
 								<input name="formEmail" type="email" placeholder="E-mail" class="contact-form__input" required>
 							</div>
 							<div class="col-xs-12 col-sm-12">
-								<input name="formEndereco" type="text" placeholder="Endereço" class="contact-form__input" required>
+								<input name="formEndereco" type="text" placeholder="Address" class="contact-form__input" required>
 							</div>							
 							<div class="col-xs-12 col-sm-6">
 								<select class="contact-form__select" id="estado" name="estado" onchange="buscar_cidades()">
-								  <option value="">Selecione um estado</option>
+								  <option value="">Select a state</option>
 								  <?php
 								  		while ($row_rsEstados = mysql_fetch_array($rsEstados))
 										{
@@ -109,38 +109,40 @@ include('produto_content.php');
 								</select>
 							</div>
 							<div class="col-xs-12 col-sm-6" id="load_cidades">
-								<span id="carregando_cidade">...aguarde, carregando</span>
+								<span id="carregando_cidade">...wait, loading</span>
 						      	<select class="contact-form__select" name="cidade" id="cidade">
-						          <option value="">Selecione uma cidade</option>
+						          <option value="">Select a city</option>
 						        </select>
 							</div>
 							<div class="col-xs-12 col-sm-6">
-								<input name="formCnpj" type="text" placeholder="CNPJ/CPF" class="contact-form__input" required>
+								<input name="formCnpj" type="text" placeholder="ID/CNPJ/CPF" class="contact-form__input" required>
 							</div>
 							<div class="col-xs-12 col-sm-6">
-								<input name="formInscricao" type="text" placeholder="Inscrição" class="contact-form__input" >
+								<input name="formInscricao" type="text" placeholder="Inscription" class="contact-form__input" >
 							</div>
 
 							<div class="col-xs-12 col-sm-6">
 								<select id="marca" class="customSel contact-form__select" ng-options="x as x.nome for x in greeting" ng-model="marca" ng-change="carregarModelo(marca)">
-						            <option value="" selected>Selecione a marca</option>
+						            <option value="" selected>Select the brand</option>
 						        </select>
 							</div>
 							<div class="col-xs-12 col-sm-6" id="modelos">
 								<select id="modelo" class="customSel contact-form__select">
-						            <option value="0" selected>Selecione o modelo</option>
+						            <option value="0" selected>Select the model</option>
 						            <option ng-repeat="x in modelo.modelos" value="{{ x.nome }}">{{ x.nome }}</option>
 						        </select>
 							</div>
 							<div class="col-xs-12 col-sm-6">
-								<select class="contact-form__select" name="yearpicker" id="yearpicker" required></select>
+								<select class="contact-form__select" name="yearpicker" id="yearpicker" required>
+									<option value="0" selected>Select the year</option>
+								</select>
 							</div>
 							<div class="col-xs-12 col-sm-6">
-								<input name="formChassis" type="text" placeholder="Chassis" class="contact-form__input" required>
+								<input name="formChassis" type="text" placeholder="Chassis number" class="contact-form__input" required>
 							</div>
 							<div class="col-xs-12 col-sm-12 align-left">
-								<textarea name="formMessage" placeholder="Mensagem" cols="30" rows="10" class="contact-form__textarea" required></textarea>
-								<button class="contact-form__submit btn-a btn-a_fill_theme" type="submit" value="Enviar">Enviar</button>
+								<textarea name="formMessage" placeholder="Message" cols="30" rows="10" class="contact-form__textarea" required></textarea>
+								<button class="contact-form__submit btn-a btn-a_fill_theme" type="submit" value="Send">Send</button>
 							</div>
 						</form>
 					</div>
@@ -164,18 +166,6 @@ include('produto_content.php');
 	        $.get(url, function(dataReturn) {
 	          $('#load_cidades').html(dataReturn); 
 	          hideshow('#carregando_cidade','#cidade');
-	        });
-	      }
-	    }
-	    
-	    function buscar_veiculos(){
-	      var marca = $('#marca').val();  
-	      if(marca){
-	        var url = 'ajax/ajax_veiculos.php?marca='+marca; 
-	        hideshow('#veiculo','#carregando_veiculo');
-	        $.get(url, function(dataReturn) {
-	          $('#load_veiculos').html(dataReturn);
-	          hideshow('#carregando_veiculo','#veiculo');
 	        });
 	      }
 	    }

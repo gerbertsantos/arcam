@@ -33,7 +33,6 @@
 									<div class="project-modal">
 										<div class="project-modal__inner">
 											<div class="project-modal__title">Land Rover</div>
-											<div class="project-modal__description">Possimus a soluta deleniti maiores modi nihil, aut eum corporis inventore illo quod, mollitia, porro beatae. Non provident, aut aliquid, libero laboriosam quidem nemo dolor, consequuntur distinctio sint maxime molestiae.</div>
 										</div>
 									</div>
 									<h5 class="portfolio-item__title">Land Rover</h5>
@@ -49,7 +48,6 @@
 									<div class="project-modal">
 										<div class="project-modal__inner">
 											<div class="project-modal__title">Mitsubishi Motors</div>
-											<div class="project-modal__description">Possimus a soluta deleniti maiores modi nihil, aut eum corporis inventore illo quod, mollitia, porro beatae. Non provident, aut aliquid, libero laboriosam quidem nemo dolor, consequuntur distinctio sint maxime molestiae.</div>
 										</div>
 									</div>
 									<h5 class="portfolio-item__title">Mitsubishi Motors</h5>
@@ -65,7 +63,6 @@
 									<div class="project-modal">
 										<div class="project-modal__inner">
 											<div class="project-modal__title">Audi</div>
-											<div class="project-modal__description">Possimus a soluta deleniti maiores modi nihil, aut eum corporis inventore illo quod, mollitia, porro beatae. Non provident, aut aliquid, libero laboriosam quidem nemo dolor, consequuntur distinctio sint maxime molestiae.</div>
 										</div>
 									</div>
 									<h5 class="portfolio-item__title">Audi</h5>
@@ -81,7 +78,6 @@
 									<div class="project-modal">
 										<div class="project-modal__inner">
 											<div class="project-modal__title">BMW</div>
-											<div class="project-modal__description">Possimus a soluta deleniti maiores modi nihil, aut eum corporis inventore illo quod, mollitia, porro beatae. Non provident, aut aliquid, libero laboriosam quidem nemo dolor, consequuntur distinctio sint maxime molestiae.</div>
 										</div>
 									</div>
 									<h5 class="portfolio-item__title">BMW</h5>
@@ -97,7 +93,6 @@
 									<div class="project-modal">
 										<div class="project-modal__inner">
 											<div class="project-modal__title">Kia Motors</div>
-											<div class="project-modal__description">Possimus a soluta deleniti maiores modi nihil, aut eum corporis inventore illo quod, mollitia, porro beatae. Non provident, aut aliquid, libero laboriosam quidem nemo dolor, consequuntur distinctio sint maxime molestiae.</div>
 										</div>
 									</div>
 									<h5 class="portfolio-item__title">Kia Motors</h5>

@@ -1,12 +1,3 @@
-/**
- * @version v1.0.2
- * @build 4-25-2016
- * @package NowaDays - One/Multi Page Multipurpose Creative Agency Portfolio Blog HTML5 Template
- * @author  Pavel Marhaunichy <onebelarussianguy@gmail.com>
- * @license http://themeforest.net/licenses
- * @website http://likeaprothemes.com
- */
-
 (function ($) {
 	'use strict';
 
@@ -2117,17 +2108,17 @@
 						//clear form
 						$form[0].reset();
 
-						showModal('<span class="theme-color">Your message was successfully sent</span>', '', false);
+						showModal('<span class="theme-color">Sua mensagem foi enviada com sucesso</span>', '', false);
 						setTimeout(function () {
 							closeModal();
 						}, 3000);
 					} else {
-						showModal('Something went wrong :(<br>Please try again.', '', false);
+						showModal('Algo deu errado :(<br>Por favor, tente novamente.', '', false);
 					}
 				},
 
 				error: function () {
-					showModal('Something went wrong :(<br>Please try again.', '', false);
+					showModal('Algo deu errado :(<br>Por favor, tente novamente.', '', false);
 				}
 			});
 		});
@@ -2238,7 +2229,7 @@
 						.error(function () {
 							//disable preloader
 							closePreloader(200, function () {
-								showModal('Something went wrong.\nPlease try again', '', false);
+								showModal('Algo deu errado.\nPor favor, tente novamente', '', false);
 							});
 						});
 					break

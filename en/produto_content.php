@@ -3,14 +3,14 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12 col-sm-12">
-					<span class="section__subtitle">Opções multimarcas</span>
-					<h3 class="section__title">Arcam - Peças Automotivas</h3>
+					<span class="section__subtitle">Multibrand Options</span>
+					<h3 class="section__title">Arcam - Automotive parts</h3>
 				</div>
 			</div>
 			<div class="row portfolio-1 portfolio-boxed portfolio-gutter">
 				<div class="about-item col-sm-12">
-					Na área de Auto Peças, o nosso objetivo é sempre satisfazer as necessidades de nossos clientes com remessa eficiente e entrega rápida. Para isso, contamos com contatos comerciais para todas as marcas de carros e uma vasta variedade de produtos.<br><br>
-					A nossa empresa busca constantemente estreitar o relacionamento junto aos parceiros e fornecedores para fornecer aos nossos clientes preços realmente competitivos e produtos de qualidade e com garantia. <br>
+				In the area of auto parts, our goal is always to meet the needs of our customers with efficient shipping and fast delivery. For this, we have business contacts for all makes of cars and a wide variety of products. <br>
+				Our company constantly seeks to strengthen the relationship with partners and suppliers to provide our customers really competitive prices and quality products and guaranteed. <br>
 				</div>
 			</div>
 			
@@ -20,8 +20,8 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-xs-12 col-sm-12">
-							<span class="section__subtitle">Conheça algumas das</span>
-							<h3 class="section__title">Marcas que trabalhamos</h3>
+							<span class="section__subtitle">Meet some of the</span>
+							<h3 class="section__title">Brands we work</h3>
 						</div>
 					</div>
 					<div class="row portfolio-1 portfolio-boxed portfolio-gutter">
@@ -33,11 +33,10 @@
 									<div class="project-modal">
 										<div class="project-modal__inner">
 											<div class="project-modal__title">Land Rover</div>
-											<div class="project-modal__description">Possimus a soluta deleniti maiores modi nihil, aut eum corporis inventore illo quod, mollitia, porro beatae. Non provident, aut aliquid, libero laboriosam quidem nemo dolor, consequuntur distinctio sint maxime molestiae.</div>
 										</div>
 									</div>
 									<h5 class="portfolio-item__title">Land Rover</h5>
-									<span class="portfolio-item__subtitle">Peças e acessórios</span>
+									<span class="portfolio-item__subtitle">Parts and accessories</span>
 								</div>
 							</div>
 						</div>
@@ -49,11 +48,10 @@
 									<div class="project-modal">
 										<div class="project-modal__inner">
 											<div class="project-modal__title">Mitsubishi Motors</div>
-											<div class="project-modal__description">Possimus a soluta deleniti maiores modi nihil, aut eum corporis inventore illo quod, mollitia, porro beatae. Non provident, aut aliquid, libero laboriosam quidem nemo dolor, consequuntur distinctio sint maxime molestiae.</div>
 										</div>
 									</div>
 									<h5 class="portfolio-item__title">Mitsubishi Motors</h5>
-									<span class="portfolio-item__subtitle">Peças e acessórios</span>
+									<span class="portfolio-item__subtitle">Parts and accessories</span>
 								</div>
 							</div>
 						</div>
@@ -65,11 +63,10 @@
 									<div class="project-modal">
 										<div class="project-modal__inner">
 											<div class="project-modal__title">Audi</div>
-											<div class="project-modal__description">Possimus a soluta deleniti maiores modi nihil, aut eum corporis inventore illo quod, mollitia, porro beatae. Non provident, aut aliquid, libero laboriosam quidem nemo dolor, consequuntur distinctio sint maxime molestiae.</div>
 										</div>
 									</div>
 									<h5 class="portfolio-item__title">Audi</h5>
-									<span class="portfolio-item__subtitle">Peças e acessórios</span>
+									<span class="portfolio-item__subtitle">Parts and accessories</span>
 								</div>
 							</div>
 						</div>
@@ -81,11 +78,10 @@
 									<div class="project-modal">
 										<div class="project-modal__inner">
 											<div class="project-modal__title">BMW</div>
-											<div class="project-modal__description">Possimus a soluta deleniti maiores modi nihil, aut eum corporis inventore illo quod, mollitia, porro beatae. Non provident, aut aliquid, libero laboriosam quidem nemo dolor, consequuntur distinctio sint maxime molestiae.</div>
 										</div>
 									</div>
 									<h5 class="portfolio-item__title">BMW</h5>
-									<span class="portfolio-item__subtitle">Peças e acessórios</span>
+									<span class="portfolio-item__subtitle">Parts and accessories</span>
 								</div>
 							</div>
 						</div>
@@ -97,11 +93,10 @@
 									<div class="project-modal">
 										<div class="project-modal__inner">
 											<div class="project-modal__title">Kia Motors</div>
-											<div class="project-modal__description">Possimus a soluta deleniti maiores modi nihil, aut eum corporis inventore illo quod, mollitia, porro beatae. Non provident, aut aliquid, libero laboriosam quidem nemo dolor, consequuntur distinctio sint maxime molestiae.</div>
 										</div>
 									</div>
 									<h5 class="portfolio-item__title">Kia Motors</h5>
-									<span class="portfolio-item__subtitle">Peças e acessórios</span>
+									<span class="portfolio-item__subtitle">Parts and accessories</span>
 								</div>
 							</div>
 						</div>
@@ -118,7 +113,7 @@
 										</div>
 									</div>
 									<h5 class="portfolio-item__title">Dodge</h5>
-									<span class="portfolio-item__subtitle">Peças e acessórios</span>
+									<span class="portfolio-item__subtitle">Parts and accessories</span>
 								</div>
 							</div>
 						</div>
@@ -133,7 +128,7 @@
 										</div>
 									</div>
 									<h5 class="portfolio-item__title">Chrysler</h5>
-									<span class="portfolio-item__subtitle">Peças e acessórios</span>
+									<span class="portfolio-item__subtitle">Parts and accessories</span>
 								</div>
 							</div>
 						</div>
@@ -149,7 +144,7 @@
 										</div>
 									</div>
 									<h5 class="portfolio-item__title">Mazda</h5>
-									<span class="portfolio-item__subtitle">Peças e acessórios</span>
+									<span class="portfolio-item__subtitle">Parts and accessories</span>
 								</div>
 							</div>
 						</div>
@@ -165,7 +160,7 @@
 										</div>
 									</div>
 									<h5 class="portfolio-item__title">Honda</h5>
-									<span class="portfolio-item__subtitle">Peças e acessórios</span>
+									<span class="portfolio-item__subtitle">Parts and accessories</span>
 								</div>
 							</div>
 						</div>
@@ -181,7 +176,7 @@
 										</div>
 									</div>
 									<h5 class="portfolio-item__title">Nissan</h5>
-									<span class="portfolio-item__subtitle">Peças e acessórios</span>
+									<span class="portfolio-item__subtitle">Parts and accessories</span>
 								</div>
 							</div>
 						</div>
@@ -198,7 +193,7 @@
 										</div>
 									</div>
 									<h5 class="portfolio-item__title">Toyota</h5>
-									<span class="portfolio-item__subtitle">Peças e acessórios</span>
+									<span class="portfolio-item__subtitle">Parts and accessories</span>
 								</div>
 							</div>
 						</div>
@@ -213,7 +208,7 @@
 										</div>
 									</div>
 									<h5 class="portfolio-item__title">Jeep</h5>
-									<span class="portfolio-item__subtitle">Peças e acessórios</span>
+									<span class="portfolio-item__subtitle">Parts and accessories</span>
 								</div>
 							</div>
 						</div>
@@ -229,7 +224,7 @@
 										</div>
 									</div>
 									<h5 class="portfolio-item__title">Volvo</h5>
-									<span class="portfolio-item__subtitle">Peças e acessórios</span>
+									<span class="portfolio-item__subtitle">Parts and accessories</span>
 								</div>
 							</div>
 						</div>
@@ -245,7 +240,7 @@
 										</div>
 									</div>
 									<h5 class="portfolio-item__title">Hummer</h5>
-									<span class="portfolio-item__subtitle">Peças e acessórios</span>
+									<span class="portfolio-item__subtitle">Parts and accessories</span>
 								</div>
 							</div>
 						</div>
@@ -261,7 +256,7 @@
 										</div>
 									</div>
 									<h5 class="portfolio-item__title">Hyundai</h5>
-									<span class="portfolio-item__subtitle">Peças e acessórios</span>
+									<span class="portfolio-item__subtitle">Parts and accessories</span>
 								</div>
 							</div>
 						</div>
@@ -278,7 +273,7 @@
 										</div>
 									</div>
 									<h5 class="portfolio-item__title">Rolls Royce</h5>
-									<span class="portfolio-item__subtitle">Peças e acessórios</span>
+									<span class="portfolio-item__subtitle">Parts and accessories</span>
 								</div>
 							</div>
 						</div>
@@ -293,7 +288,7 @@
 										</div>
 									</div>
 									<h5 class="portfolio-item__title">Lamborghini</h5>
-									<span class="portfolio-item__subtitle">Peças e acessórios</span>
+									<span class="portfolio-item__subtitle">Parts and accessories</span>
 								</div>
 							</div>
 						</div>
@@ -309,7 +304,7 @@
 										</div>
 									</div>
 									<h5 class="portfolio-item__title">Mercedes Benz</h5>
-									<span class="portfolio-item__subtitle">Peças e acessórios</span>
+									<span class="portfolio-item__subtitle">Parts and accessories</span>
 								</div>
 							</div>
 						</div>
@@ -325,7 +320,7 @@
 										</div>
 									</div>
 									<h5 class="portfolio-item__title">Subaru</h5>
-									<span class="portfolio-item__subtitle">Peças e acessórios</span>
+									<span class="portfolio-item__subtitle">Parts and accessories</span>
 								</div>
 							</div>
 						</div>
@@ -341,7 +336,7 @@
 										</div>
 									</div>
 									<h5 class="portfolio-item__title">Maserati</h5>
-									<span class="portfolio-item__subtitle">Peças e acessórios</span>
+									<span class="portfolio-item__subtitle">Parts and accessories</span>
 								</div>
 							</div>
 						</div>
@@ -358,7 +353,7 @@
 										</div>
 									</div>
 									<h5 class="portfolio-item__title">Bugatti</h5>
-									<span class="portfolio-item__subtitle">Peças e acessórios</span>
+									<span class="portfolio-item__subtitle">Parts and accessories</span>
 								</div>
 							</div>
 						</div>
@@ -374,7 +369,7 @@
 										</div>
 									</div>
 									<h5 class="portfolio-item__title">Mini</h5>
-									<span class="portfolio-item__subtitle">Peças e acessórios</span>
+									<span class="portfolio-item__subtitle">Parts and accessories</span>
 								</div>
 							</div>
 						</div>
@@ -390,7 +385,7 @@
 										</div>
 									</div>
 									<h5 class="portfolio-item__title">Alfa Romeo</h5>
-									<span class="portfolio-item__subtitle">Peças e acessórios</span>
+									<span class="portfolio-item__subtitle">Parts and accessories</span>
 								</div>
 							</div>
 						</div>
@@ -406,7 +401,7 @@
 										</div>
 									</div>
 									<h5 class="portfolio-item__title">Aston Martin</h5>
-									<span class="portfolio-item__subtitle">Peças e acessórios</span>
+									<span class="portfolio-item__subtitle">Parts and accessories</span>
 								</div>
 							</div>
 						</div>
@@ -422,7 +417,7 @@
 										</div>
 									</div>
 									<h5 class="portfolio-item__title">Ferrari</h5>
-									<span class="portfolio-item__subtitle">Peças e acessórios</span>
+									<span class="portfolio-item__subtitle">Parts and accessories</span>
 								</div>
 							</div>
 						</div>

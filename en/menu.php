@@ -19,6 +19,12 @@
 				<li class="menu__item"><a href="auto.php" class="menu__link <?php echo ( $url == 'auto' ? $active : null );?>">Auto Parts</a></li>
 				<li class="menu__item"><a href="equipe.php" class="menu__link <?php echo ( $url == 'equipe' ? $active : null );?>">Our Team</a></li>
 				<li class="menu__item"><a href="contato.php" class="menu__link <?php echo ( $url == 'contato' ? $active : null );?>">Contact Us</a></li>
+				<li class="menu__item"><a href="#" class="menu__link">Language</a>
+					<ul class="submenu">
+						<li class="submenu__item"><a href="/" class="submenu__link">Brazilian Portuguese</a></li>
+						<li class="submenu__item"><a href="/en/" class="submenu__link">English</a></li>
+					</ul>
+				</li>
 			</ul>
 
 		</nav>

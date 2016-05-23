@@ -4525,7 +4525,8 @@ header, section {
 }
 
 .menu-mobile-social {
-	margin: 70px 20px 0 30px;
+	display:none;
+	/*margin: 70px 20px 0 30px;*/
 }
 
 @media (max-width: 767px) {

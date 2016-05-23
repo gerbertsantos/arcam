@@ -90,7 +90,7 @@ include('produto_content.php');
 								<input name="formNome" type="text" placeholder="Nome" class="contact-form__input" required>
 							</div>
 							<div class="col-xs-12 col-sm-6">
-								<input name="formTelefone" type="text" placeholder="Telefone" class="contact-form__input" required>
+								<input name="formPhone" type="text" placeholder="Telefone" class="contact-form__input" required>
 							</div>
 							<div class="col-xs-12 col-sm-6">
 								<input name="formEmail" type="email" placeholder="E-mail" class="contact-form__input" required>
@@ -99,7 +99,7 @@ include('produto_content.php');
 								<input name="formEndereco" type="text" placeholder="Endereço" class="contact-form__input" required>
 							</div>							
 							<div class="col-xs-12 col-sm-6">
-								<select class="contact-form__select" id="estado" name="estado" onchange="buscar_cidades()">
+								<select class="contact-form__select" id="estado" name="formEstado" onchange="buscar_cidades()">
 								  <option value="">Selecione um estado</option>
 								  <?php
 								  		while ($row_rsEstados = mysql_fetch_array($rsEstados))
@@ -111,7 +111,7 @@ include('produto_content.php');
 							</div>
 							<div class="col-xs-12 col-sm-6" id="load_cidades">
 								<span id="carregando_cidade">...aguarde, carregando</span>
-						      	<select class="contact-form__select" name="cidade" id="cidade">
+						      	<select class="contact-form__select" name="formCidade" id="cidade">
 						          <option value="">Selecione uma cidade</option>
 						        </select>
 							</div>
@@ -123,18 +123,20 @@ include('produto_content.php');
 							</div>
 
 							<div class="col-xs-12 col-sm-6">
-								<select id="marca" class="customSel contact-form__select" ng-options="x as x.nome for x in greeting" ng-model="marca" ng-change="carregarModelo(marca)">
+								<select id="marca" name="formMarca" class="customSel contact-form__select" ng-options="x as x.nome for x in greeting" ng-model="marca" ng-change="carregarModelo(marca)">
 						            <option value="" selected>Selecione a marca</option>
 						        </select>
 							</div>
 							<div class="col-xs-12 col-sm-6" id="modelos">
-								<select id="modelo" class="customSel contact-form__select">
+								<select id="modelo" name="formModelo" class="customSel contact-form__select">
 						            <option value="0" selected>Selecione o modelo</option>
 						            <option ng-repeat="x in modelo.modelos" value="{{ x.nome }}">{{ x.nome }}</option>
 						        </select>
 							</div>
 							<div class="col-xs-12 col-sm-6">
-								<select class="contact-form__select" name="yearpicker" id="yearpicker" required></select>
+								<select class="contact-form__select" name="formAno" id="yearpicker" required>
+									<option value="" selected>Selecione o ano</option>
+								</select>
 							</div>
 							<div class="col-xs-12 col-sm-6">
 								<input name="formChassis" type="text" placeholder="Chassis" class="contact-form__input" required>
@@ -165,18 +167,6 @@ include('produto_content.php');
 	        $.get(url, function(dataReturn) {
 	          $('#load_cidades').html(dataReturn); 
 	          hideshow('#carregando_cidade','#cidade');
-	        });
-	      }
-	    }
-	    
-	    function buscar_veiculos(){
-	      var marca = $('#marca').val();  
-	      if(marca){
-	        var url = 'ajax/ajax_veiculos.php?marca='+marca; 
-	        hideshow('#veiculo','#carregando_veiculo');
-	        $.get(url, function(dataReturn) {
-	          $('#load_veiculos').html(dataReturn);
-	          hideshow('#carregando_veiculo','#veiculo');
 	        });
 	      }
 	    }

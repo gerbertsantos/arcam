@@ -55,10 +55,10 @@
 								<div class="row">
 									<form action="ajax/feedback.php" class="contact-form">
 										<div class="col-xs-12 col-sm-12">
-											<input name="formNome" type="text" placeholder="Nome" class="contact-form__input" required>
+											<input name="formNome" type="text" placeholder="Nome" class="contact-form__input" message="Campo obrigatório" required>
 										</div>
 										<div class="col-xs-12 col-sm-6">
-											<input name="formTelefone" type="text" placeholder="Telefone" class="contact-form__input" required>
+											<input name="formPhone" type="text" placeholder="Telefone" class="contact-form__input" required>
 										</div>
 										<div class="col-xs-12 col-sm-6">
 											<input name="formEmail" type="email" placeholder="E-mail" class="contact-form__input" required>
@@ -74,8 +74,7 @@
 					</div>
 				</section>
 				<!-- end Contact us section -->
-
-
+				
 
 		<?php
 
