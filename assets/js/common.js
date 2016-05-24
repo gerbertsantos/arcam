@@ -2084,12 +2084,9 @@
 		});
 	}());
 
-
-
-
 	/**
 	 * Feedback form validate with HTML5 & sending via AJAX
-	 */
+	*/
 	$('.footer-form, .contact-form').submit(function (e) {
 
 		var $form = $(this);

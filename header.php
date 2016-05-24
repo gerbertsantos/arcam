@@ -87,7 +87,6 @@
 			<!-- arcam -->
 			<link rel="stylesheet" href="assets/css/arcam.css"/>
 			
-			<!-- <link rel="stylesheet" href="assets/css/theme-colors/theme-8b63b1.css"> -->
 		</head>
 
 		<body class="p-onepage menu-mobile-right" ng-controller="MyCtrl">

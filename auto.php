@@ -85,21 +85,21 @@ include('produto_content.php');
 				</div>
 				<div class="col-xs-12 col-sm-8">
 					<div class="row">
-						<form action="ajax/pedido.php" class="contact-form">
+						<form action="ajax/feedback.php" class="contact-form" id="pedido">
 							<div class="col-xs-12 col-sm-12">
-								<input name="formNome" type="text" placeholder="Nome" class="contact-form__input" required>
+								<input name="formPedidoNome" type="text" placeholder="Nome" class="contact-form__input" required>
 							</div>
 							<div class="col-xs-12 col-sm-6">
-								<input name="formPhone" type="text" placeholder="Telefone" class="contact-form__input" required>
+								<input name="formPedidoPhone" type="text" placeholder="Telefone" class="contact-form__input" required>
 							</div>
 							<div class="col-xs-12 col-sm-6">
-								<input name="formEmail" type="email" placeholder="E-mail" class="contact-form__input" required>
+								<input name="formPedidoEmail" type="email" placeholder="E-mail" class="contact-form__input" required>
 							</div>
 							<div class="col-xs-12 col-sm-12">
-								<input name="formEndereco" type="text" placeholder="Endereço" class="contact-form__input" required>
+								<input name="formPedidoEndereco" type="text" placeholder="Endereço" class="contact-form__input" required>
 							</div>							
 							<div class="col-xs-12 col-sm-6">
-								<select class="contact-form__select" id="estado" name="formEstado" onchange="buscar_cidades()">
+								<select class="contact-form__select" id="estado" name="formPedidoEstado" onchange="buscar_cidades()">
 								  <option value="">Selecione um estado</option>
 								  <?php
 								  		while ($row_rsEstados = mysql_fetch_array($rsEstados))
@@ -111,39 +111,39 @@ include('produto_content.php');
 							</div>
 							<div class="col-xs-12 col-sm-6" id="load_cidades">
 								<span id="carregando_cidade">...aguarde, carregando</span>
-						      	<select class="contact-form__select" name="formCidade" id="cidade">
+						      	<select class="contact-form__select" name="formPedidoCidade" id="cidade" onchange="listarAno()">
 						          <option value="">Selecione uma cidade</option>
 						        </select>
 							</div>
 							<div class="col-xs-12 col-sm-6">
-								<input name="formCnpj" type="text" placeholder="CNPJ/CPF" class="contact-form__input" required>
+								<input name="formPedidoCnpj" type="text" placeholder="CNPJ/CPF" class="contact-form__input" required>
 							</div>
 							<div class="col-xs-12 col-sm-6">
-								<input name="formInscricao" type="text" placeholder="Inscrição" class="contact-form__input" >
+								<input name="formPedidoInscricao" type="text" placeholder="Inscrição" class="contact-form__input" >
 							</div>
 
 							<div class="col-xs-12 col-sm-6">
-								<select id="marca" name="formMarca" class="customSel contact-form__select" ng-options="x as x.nome for x in greeting" ng-model="marca" ng-change="carregarModelo(marca)">
+								<select id="marca" name="formPedidoMarca" class="customSel contact-form__select" ng-options="x as x.nome for x in greeting" ng-model="marca" ng-change="carregarModelo(marca)">
 						            <option value="" selected>Selecione a marca</option>
 						        </select>
 							</div>
 							<div class="col-xs-12 col-sm-6" id="modelos">
-								<select id="modelo" name="formModelo" class="customSel contact-form__select">
+								<select id="modelo" name="formPedidoModelo" class="customSel contact-form__select">
 						            <option value="0" selected>Selecione o modelo</option>
 						            <option ng-repeat="x in modelo.modelos" value="{{ x.nome }}">{{ x.nome }}</option>
 						        </select>
 							</div>
 							<div class="col-xs-12 col-sm-6">
-								<select class="contact-form__select" name="formAno" id="yearpicker" required>
+								<select class="contact-form__select" name="formPedidoAno" id="yearpicker" required>
 									<option value="" selected>Selecione o ano</option>
 								</select>
 							</div>
 							<div class="col-xs-12 col-sm-6">
-								<input name="formChassis" type="text" placeholder="Chassis" class="contact-form__input" required>
+								<input name="formPedidoChassis" type="text" placeholder="Chassis" class="contact-form__input" required>
 							</div>
 							<div class="col-xs-12 col-sm-12 align-left">
-								<textarea name="formMessage" placeholder="Mensagem" cols="30" rows="10" class="contact-form__textarea" required></textarea>
-								<button class="contact-form__submit btn-a btn-a_fill_theme" type="submit" value="Enviar">Enviar</button>
+								<textarea name="formPedidoMessage" placeholder="Mensagem" cols="30" rows="10" class="contact-form__textarea" required></textarea>
+								<button class="contact-form__submit btn-a btn-a_fill_theme" type="submit" value="Send">Enviar</button>
 							</div>
 						</form>
 					</div>
@@ -171,12 +171,13 @@ include('produto_content.php');
 	      }
 	    }
 	    
-	    $(document).ready(function(){
+	   $(document).ready(function(){
           for (i = new Date().getFullYear(); i > 1969; i--)
           {
               $('#yearpicker').append($('<option />').val(i).html(i));
           }
         });
+          
 	</script>
 
 <?php include('footer.php'); ?>

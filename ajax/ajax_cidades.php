@@ -15,7 +15,7 @@ for ($i = 0; $i < $num; $i++) {
 }
 ?>
 <span id="carregando_cidade">...aguarde, carregando</span>
-<select class="contact-form__select" name="cidade" id="cidade">
+<select class="contact-form__select" name="formPedidoCidade" id="cidade">
   <?php foreach($arrCidades as $value => $nome){
     echo "<option value='{$value}'>{$nome}</option>";
   }

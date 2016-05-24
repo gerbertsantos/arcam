@@ -1,9 +1,9 @@
 
 <?php
 
-    if( 'POST' == $_SERVER['REQUEST_METHOD'] && isset($_POST['formName']) && isset($_POST['formMarca']) && isset($_POST['formModelo']) && isset($_POST['formAno']) && isset($_POST['formEmail']) && isset($_POST['formMessage']) ) {
+    if( 'POST' == $_SERVER['REQUEST_METHOD'] && isset($_POST['formNome']) && isset($_POST['formMarca']) && isset($_POST['formModelo']) && isset($_POST['formAno']) && isset($_POST['formEmail']) && isset($_POST['formMessage']) ) {
 	
-        $name = $_POST['formName'];
+        $name = $_POST['formNome'];
         $phone = $_POST['formPhone'];
 		$mail = $_POST['formEmail'];
 		$address = $_POST['formEndereco'];
@@ -17,8 +17,9 @@
 		$subj = $_POST['formSubject'];
 		$mess = $_POST['formMessage'];
 		
-		$to = '<Email envio>';
-		$subject = ($subj) ? $subj : 'Pedido recebido do site Arcam Brasil';
+		$to = 'gerbert.nsantos@gmail.com';
+		//$subject = ($subj) ? $subj : 'Pedido recebido do site Arcam Brasil';
+		$subject = 	'Pedido recebido do site Arcam Brasil';
 		$message = 	$name . "\r\n" . 
 					$phone . "\r\n" .
 					$mail . "\r\n" .

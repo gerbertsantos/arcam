@@ -53,7 +53,7 @@
 							</div>
 							<div class="col-xs-12 col-sm-8">
 								<div class="row">
-									<form action="ajax/feedback.php" class="contact-form">
+									<form action="ajax/feedback.php" class="contact-form" id="contato">
 										<div class="col-xs-12 col-sm-12">
 											<input name="formNome" type="text" placeholder="Nome" class="contact-form__input" message="Campo obrigatório" required>
 										</div>

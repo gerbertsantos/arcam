@@ -84,7 +84,7 @@ include('produto_content.php');
 				</div>
 				<div class="col-xs-12 col-sm-8">
 					<div class="row">
-						<form action="ajax/pedido.php" class="contact-form">
+						<form action="../ajax/pedido.php" class="contact-form" id="pedido">
 							<div class="col-xs-12 col-sm-12">
 								<input name="formNome" type="text" placeholder="Name" class="contact-form__input" required>
 							</div>
