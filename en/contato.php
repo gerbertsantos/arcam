@@ -27,7 +27,7 @@
 						<div class="row contact">
 							<div class="col-xs-12 col-sm-4">
 								<div class="contact-info">
-									<div class="contact-info__title">Adresses</div>
+									<div class="contact-info__title">Addresses</div>
 									<div class="contact-info__item ico-60">
 										Arcam Brasil
 										<br>Rodovia Ernani do Amaral Peixoto,

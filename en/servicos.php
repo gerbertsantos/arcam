@@ -67,7 +67,7 @@
 				
 				<div class="row about">
 					<div class="about-item col-sm-12">
-						The ARCAM DO BRASIL stands out because it offers complete and personalized management of operations, always seeking to meet the specific needs of each client.
+						The ARCAM BRASIL stands out because it offers complete and personalized management of operations, always seeking to meet the specific needs of each client.
 						
 						<br/>
 						<br/>

@@ -28,31 +28,33 @@
 			<div class="row skills">
 				<div class="col-xs-12 col-sm-12 col-md-6">
 					<p class="skills__text">
-						The ARCAM BRASIL markets high quality products and technology, in several areas, domestic and foreign.<br><br>
+						ARCAM provides the importing and trade of a wide range of high-tech products in a variety of areas, always seeking for the best services provided, ensure the quality of our products, rendering services that assist the business processes of our customers and to master the technology of each operating field.<br><br>
 
-						You can highlight the following main business segments of the company: Filmography<br><br>
+						ARCAM operate in the main segments:<br><br>
 						• Automotive Industry; <br>
-						• Naval Industry and Oil and Gas; <br>
-						• Electric Power Generation Plants; <br>
-						• Industry Mining and Metallurgy; <br>
-						• Telecommunications; <br>
+						• Industrial, Naval; <br>
+						• Civil Engineering; <br>
+						• Oil and Gas, Nuclear; <br>
+						• Mining; <br>
 						• Medical-Hospital Industry; <br>
-						• Aviation; <br>
-						• Industrial Automation. <br><br>
+						• Energy and Steel; <br>
+						• Telecommunications; <br>
+						• Metallurgy; <br>
+						• Equipment and general supplies for medical and dental use; <br>
+						• Hospital and surgical use; <br>
+						• Laboratory and ambulatory use; <br><br>
 						
-						If the client needs material in any segment of the economy not listed above, yet the ARCAM BRASIL can serve you. <br>
+						The most important of all is to provide a distinctive and highly customized support; In case your f company needs specific materials not listed above se, we can provide and deliver them to you!  <br>
 						
-						Our team in Brazil and our network of international advisors will be on hand to locate any material possibly
-						required, and deliver it wherever the customer may determine. <br><br>
+						From virtually anywhere in the world, we can bring your product to you, wherever you are!  <br><br>
 						
-						This is the ARCAM, a company working to bring the world to you.
+						This is ARCAM, a company that works to bring the world to you.
 						
 						
 					</p>
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-6">
 					<p class="skills__text">
-						New Text - Wait....
 						
 						
 					</p>

@@ -38,7 +38,10 @@
 				<div class="offer-2-item fx" data-animation-name="fadeInRight" data-animation-duration="1s" data-animation-delay="0.2s">
 					<div class="offer-2-item__inner">
 						<h5 class="offer-2__title">Quality and safety</h5>
-						<p class="offer-2__description">They are tools, always on the good performance of ARCAM BRASIL, information technology, security and transparency of business.</p>
+						<p class="offer-2__description">
+							ARCAM operates in the International Trade field, selling and distributing national and international products for the most diverse and differentiated segments. We have a specialized technical team for each area, which have the purpose to meet the needs of your customers with maximum efficiency.<br><br>
+							Our company maintains a business structure and a distribution network capable of serving customers quicky and in an efficient way, anywhere in Brazil or the world, always within the concept of "Just in Time" (on-demand sales system).
+						</p>
 					</div>
 				</div>
 			</div>

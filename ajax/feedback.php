@@ -21,7 +21,7 @@
 			$subj = $_POST['formPedidoSubject'];
 			$mess = $_POST['formPedidoMessage'];
 			
-			$to = 'gerbert.nsantos@gmail.com';
+			$to = '<email valido para envio arcam>';
 			//$subject = ($subj) ? $subj : 'Pedido recebido do site Arcam Brasil';
 			$subject = 	'Pedido recebido do site Arcam Brasil';
 			$message = 	$name . "\r\n" . 
@@ -50,7 +50,7 @@
 			//$subj = $_POST['formSubject'];
 			$mess = $_POST['formMessage'];
 			
-			$to = 'gerbert.nsantos@gmail.com';
+			$to = '<email valido para envio arcam>';
 			//$subject = ($subj) ? $subj : 'Contato recebido do site Arcam Brasil';
 			$subject = 'Contato recebido do site Arcam Brasil';
 			$message = $name . "\r\n" . $phone . "\r\n" . $mess;

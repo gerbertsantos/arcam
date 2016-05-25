@@ -13,16 +13,12 @@
 			<div class="row about">
 				<div class="about-item col-sm-6">
 					<p class="about-item__text">
-						ARCAM OF BRAZIL is part of the "The Arcam Group," Canadian capital company with expertise in providing materials for different sectors of industry and commerce. 
-						We fulfill our purpose through the interaction between suppliers and national and international logistics operators in order to always rationalize and optimize deadlines and prices for its customers.<br>
-						Our goal is to provide our customers with quality products, affordable and acceptable terms.
+						ARCAM DO BRASIL COMÉRCIO DE EQUIPAMENTOS E SUPRIMENTOS LTDA is a company which mission is accomplished by means of a selective work of International Prospecting, in tune with suppliers and potential customers abroad, in order to facilitate the acquisition, supply, importing and exporting processes, in addition to counting on a strong partnership with the largest National and International Third-party Logistics Providers for Market (Supply Chain).
 					</p>
 				</div>
 				<div class="about-item col-sm-6">
 					<p class="about-item__text">
-						We operate in the field of shipbuilding and oil industry providing parts and high quality equipment. We represent major brands of equipment and replacement products for the health sector.
-						We operate in the civil engineering area, we offer various types of inputs and materials in this segment. We provide electro-eletônicas parts to the area of telecommunications and now started new activities in
-						supply of automotive parts for a range of brands and its various models, come and join the Arcam Brazil.
+						Without casting the innovations aside, combining it with high technology and safety, so that these items enrich our business, making its flow faster and more honest.
 					</p>
 				</div>
 			</div>

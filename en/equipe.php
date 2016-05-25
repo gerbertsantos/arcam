@@ -28,12 +28,8 @@
 					
 					<div class="col-xs-12 col-sm-12 col-md-12">
 						<p class="skills__text">
-							The ARCAM is a company that performs all its activities with the highest level of excellence and, therefore, has a highly qualified and trained multidisciplinary team. <br>
-
-							Our team combines knowledge the boldness needed to drive new business, which ensures the smooth implementation of the company's work and the faithful fulfillment of its mission. <br>
-
-							Our company stands out because it offers complete and personalized management of business operations, always seeking to meet the specific needs of each client. <br>
-							
+							ARCAM is a company that performs all its activities with maximum level of excellence. We have a highly qualified professional staff, 
+							which combines knowledge to the edge necessary to drive new businesses.<br>
 						</p>
 					</div>
 
